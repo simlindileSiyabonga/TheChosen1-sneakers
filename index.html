@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>The Chosen 1 Sneakers</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="navdiv">
+        <input type="checkbox" id="sidebar-toggle" class="sidebar-toggle">
+        <label for="sidebar-toggle" class="hamburger">☰</label>
+        <div class="logo"><a href="index.html">The Chosen 1 Sneakers</a></div>
+        <nav class="desktop-nav">
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." aria-label="Search for products">
+            <button type="submit">🔍</button>
+          </div>
+          <input type="checkbox" id="auth-toggle" class="auth-toggle" aria-label="Toggle login/signup">
+          <label for="auth-toggle" class="auth-toggle-label">👤</label>
+          <div class="auth-dropdown">
+            <p>Sign in or create an account to shop!</p>
+            <form>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" required>
+              <div class="auth-buttons">
+                <input type="submit" value="Login" class="login-button">
+                <input type="submit" value="Signup" class="signup-button">
+              </div>
+            </form>
+          </div>
+          <input type="checkbox" id="cart-toggle" class="cart-toggle" aria-label="Toggle cart">
+          <label for="cart-toggle" class="cart-toggle-label">🛒</label>
+          <div class="cart-dropdown">
+            <h3>Your Cart</h3>
+            <p>Your cart is empty.</p>
+          </div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="sidebar">
+          <label for="sidebar-toggle" class="close-hamburger">☰</label>
+          <div class="sidebar-logo"><a href="index.html">The Chosen 1 Sneakers</a></div>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li>
+              <input type="checkbox" id="auth-toggle-mobile" class="auth-toggle-mobile" aria-label="Toggle login/signup">
+              <label for="auth-toggle-mobile" class="auth-toggle-label">👤 Login/Signup</label>
+              <div class="auth-dropdown">
+                <p>Sign in or create an account to shop!</p>
+                <form>
+                  <label for="email-mobile">Email:</label>
+                  <input type="email" id="email-mobile" name="email" required>
+                  <label for="password-mobile">Password:</label>
+                  <input type="password" id="password-mobile" name="password" required>
+                  <div class="auth-buttons">
+                    <input type="submit" value="Login" class="login-button">
+                    <input type="submit" value="Signup" class="signup-button">
+                  </div>
+                </form>
+              </div>
+            </li>
+            <li>
+              <input type="checkbox" id="cart-toggle-mobile" class="cart-toggle-mobile" aria-label="Toggle cart">
+              <label for="cart-toggle-mobile" class="cart-toggle-label">🛒 View Cart</label>
+              <div class="cart-dropdown">
+                <h3>Your Cart</h3>
+                <p>Your cart is empty.</p>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <header class="hero">
+      <div class="container spacing">
+        <h1 class="primary-title">Elevate Your Walk. Define Your Style</h1>
+        <p>
+          This isn’t just a sneaker store—it’s your new favorite flex. At THE CHOSEN1, 
+          we bring you the freshest kicks, the cleanest drops, and the kind of heat that turns sidewalks into runways.
+          From exclusive collabs to streetwear icons, every pair is handpicked to keep your style sharp and your game ahead. 
+          Why blend in when you were born to stand out? Step up. Drip hard. Walk loud.
+        </p>
+        <a href="#" class="btn">See what we have</a>
+      </div>
+    </header>
+    <main>
+      <section class="featured">
+        <div class="container">
+          <h2 class="section-title">Featured sneakers</h2>
+          <div class="split">
+            <a href="#" class="featured__item">
+              <img src="images/nike1.webp" alt="" class="featured__img" />
+              <p class="featured__details">
+                <span class="price">R2 499</span>Air Force 1 Custom
+              </p>
+            </a>
+            <a href="#" class="featured__item">
+              <img src="images/nike2.webp" alt="" class="featured__img" />
+              <p class="featured__details">
+                <span class="price">R2 540</span>The Great Wave - Air Force 1 Custom
+              </p>
+            </a>
+            <a href="#" class="featured__item">
+              <img src="images/nike3.webp" alt="" class="featured__img" />
+              <p class="featured__details">
+                <span class="price">R2 379</span>Butterflies - Air Force 1 Custom
+              </p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="our-products">
+        <div class="container">
+          <h2 class="section-title">Our sneakers</h2>
+          <article class="product shoe-red spacing">
+            <img src="images/STEVEMADDEN_SHOES_POSSESSION-E_BLACK_grande.webp" alt="" class="product__image" />
+            <h3 class="product__title">Walk the Hype. Own the Street</h3>
+            <p class="product__description">
+              At THE CHOSEN 1, every sneaker makes a statement. From exclusive drops to everyday heat, 
+              we’ve got the kicks to keep your style loud and your game strong. Step in and stand out.
+            </p>
+            <a href="https://stevemadden.co.za/products/possession-black" class="btn">Buy now</a>
+          </article>
+          <article class="product shoe-white shoe-left spacing">
+            <img src="https://github.com/kevin-powell/shoes/blob/master/img/shoe-2.png?raw=true" alt="" class="product__image" />
+            <h3 class="product__title">Where Street Meets Sole</h3>
+            <p class="product__description">
+              We fuse street culture with killer kicks. From iconic classics to the latest heat, our sneakers are built to turn heads and
+              own the pavement. This is style with soul.
+            </p>
+            <a href="https://za.puma.com/men/shoes/sneakers" class="btn">Buy now</a>
+          </article>
+          <article class="product shoe-blue spacing">
+            <img src="images/all star.avif" alt="" class="product__image" />
+            <h3 class="product__title">Limited Drops. Unlimited Style</h3>
+            <p class="product__description">
+              We bring you RARE releases and next-level looks. Every pair is a statement—exclusive, bold, and built for those who don’t follow trends, they create them. Get yours before they’re gone.
+            </p>
+            <a href="https://levante.co.za/product/converse-all-star-lift-hi-black/" class="btn">Buy now</a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>© 2025 The Chosen 1 Sneakers. All rights reserved.</p>
+        <ul class="footer-links">
+          <li><a href="contact.html">Contact Us</a></li>
+		  <p><a href="mailto:info@TheChosen1Sneakers.com">Email Us</a></p>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter/X">Twitter/X</a></li>
+       </ul>
+      </div>
+    </footer>
+  </body>
+</html>
